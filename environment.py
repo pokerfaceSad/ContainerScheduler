@@ -1,6 +1,8 @@
 #-*- coding: utf-8 -*-
 import numpy as np
 import math
+import matplotlib
+matplotlib.use("TkAgg")
 import matplotlib.pyplot as plt
 import matplotlib.patches as mpatches
 
@@ -97,6 +99,11 @@ class Environment(object):
             occupancy[bin] = occupied / len(self.cells[bin])
 
         reward = np.sum(np.power(100, occupancy))
+        # reward = np.sum(np.power(occupancy, 4))
+        # size = np.flatnonzero(occupancy).size
+        # reward = np.mean(occupancy[range(size)])*100
+        # reward = 10 - size
+        # print(reward)
         return reward
 
     def step(self, placement, service, length):
@@ -106,13 +113,13 @@ class Environment(object):
         self.service = service
         self.serviceLength = length
         self.first_slots = np.zeros(length, dtype='int32')
-
+        # print(placement)
         for i in range(length):
             self._placePacket(i, placement[i], service[i])
 
         """ Compute reward """
         if self.invalidPlacement == True:
-            self.reward = 1
+            self.reward = 0.000001
         else:
             self.reward = self._computeReward()
 
@@ -125,7 +132,7 @@ class Environment(object):
         self.service = None
         self.placement = None
         self.first_slots = None
-        self.reward = 1
+        self.reward = 0.000001
         self.invalidPlacement = False
 
     def render(self, epoch=0):

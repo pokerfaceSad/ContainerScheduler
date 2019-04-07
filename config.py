@@ -18,7 +18,7 @@ def str2bool(v):
 # Environment
 env_arg = add_argument_group('Environment')
 env_arg.add_argument('--num_bins', type=int, default=5, help='number of bins')
-env_arg.add_argument('--num_slots', type=int, default=5, help='number of slots per bin')
+env_arg.add_argument('--num_slots', type=int, default=10, help='number of slots per bin')
 env_arg.add_argument('--num_descriptors', type=int, default=8, help='number of unique packets')
 
 # Network
@@ -29,8 +29,8 @@ net_arg.add_argument('--num_stacks', type=int, default=3, help='agent LSTM num_s
 # Data
 data_arg = add_argument_group('Data')
 data_arg.add_argument('--batch_size', type=int, default=128, help='batch size')
-data_arg.add_argument('--min_length', type=int, default=2, help='minimum chain length')
-data_arg.add_argument('--max_length', type=int, default=6, help='maximum chain length')
+data_arg.add_argument('--min_length', type=int, default=10, help='minimum chain length')
+data_arg.add_argument('--max_length', type=int, default=10, help='maximum chain length')
 
 # Training / test parameters
 train_arg = add_argument_group('Training')

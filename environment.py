@@ -1,8 +1,6 @@
 #-*- coding: utf-8 -*-
 import numpy as np
 import math
-import matplotlib
-matplotlib.use("TkAgg")
 import matplotlib.pyplot as plt
 import matplotlib.patches as mpatches
 
@@ -49,14 +47,14 @@ class Environment(object):
     def _get_service_propertieses(self):
         """ Packet properties """
         # By default the size of each package in that environment is 1, should be modified here.
-        self.service_properties[0]["size"] = 3
+        self.service_properties[0]["size"] = 1
         self.service_properties[1]["size"] = 2
-        self.service_properties[2]["size"] = 2
-        self.service_properties[3]["size"] = 1
-        self.service_properties[4]["size"] = 1
-        self.service_properties[5]["size"] = 1
-        self.service_properties[6]["size"] = 1
-        self.service_properties[7]["size"] = 1
+        self.service_properties[2]["size"] = 4
+        self.service_properties[3]["size"] = 8
+        self.service_properties[4]["size"] = 2
+        self.service_properties[5]["size"] = 2
+        self.service_properties[6]["size"] = 4
+        self.service_properties[7]["size"] = 4
 
     def _placeSubPakcet(self, bin, pkt):
         """ Place subPacket """
@@ -99,11 +97,6 @@ class Environment(object):
             occupancy[bin] = occupied / len(self.cells[bin])
 
         reward = np.sum(np.power(100, occupancy))
-        # reward = np.sum(np.power(occupancy, 4))
-        # size = np.flatnonzero(occupancy).size
-        # reward = np.mean(occupancy[range(size)])*100
-        # reward = 10 - size
-        # print(reward)
         return reward
 
     def step(self, placement, service, length):
@@ -113,13 +106,13 @@ class Environment(object):
         self.service = service
         self.serviceLength = length
         self.first_slots = np.zeros(length, dtype='int32')
-        # print(placement)
+
         for i in range(length):
             self._placePacket(i, placement[i], service[i])
 
         """ Compute reward """
         if self.invalidPlacement == True:
-            self.reward = 0.000001
+            self.reward = 1
         else:
             self.reward = self._computeReward()
 
@@ -132,19 +125,19 @@ class Environment(object):
         self.service = None
         self.placement = None
         self.first_slots = None
-        self.reward = 0.000001
+        self.reward = 1
         self.invalidPlacement = False
 
     def render(self, epoch=0):
         """ Render environment using Matplotlib """
 
         # Creates just a figure and only one subplot
-        fig, ax = plt.subplots()
+        fig, ax = plt.subplots(figsize=(10, 5))
         ax.set_title(f'Environment {epoch}\nreward: {self.reward}')
 
         margin = 3
         margin_ext = 6
-        xlim = 100
+        xlim = 200
         ylim = 80
 
         # Set drawing limits

@@ -73,6 +73,7 @@ if __name__ == "__main__":
         # Restore variables from disk
         if config.load_model:
             saver.restore(sess, "save/tf_binpacking.ckpt")
+            # saver.restore(sess, "save/tmp.ckpt-57600")
             print("Model restored.")
 
         # Train model
@@ -114,7 +115,7 @@ if __name__ == "__main__":
                     writer.add_summary(summary, e)
 
                 # Save intermediary model variables
-                if config.save_model and e % max(1, int(config.num_epoch / 5)) == 0 and e != 0:
+                if config.save_model and e % max(1, int(config.num_epoch / 100)) == 0 and e != 0:
                     save_path = saver.save(sess, "save/tmp.ckpt", global_step=e)
                     print("\n Model saved in file: %s" % save_path)
 

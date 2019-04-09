@@ -98,11 +98,13 @@ class DynamicMultiRNN(object):
 
         states_series, current_state = tf.nn.dynamic_rnn(cells, input_, initial_state=rnn_tuple_state, sequence_length=input_len_)
         #states_series = tf.Print(states_series, ["states_series", states_series, tf.shape(states_series)], summarize=10)
+
         self.outputs = tf.layers.dense(states_series, self.action_size, activation=tf.nn.softmax)       # [Batch, seq_length, action_size]
         #self.outputs = tf.Print(self.outputs, ["outputs", self.outputs, tf.shape(self.outputs)],summarize=10)
 
         # Multinomial distribution
         prob = tf.contrib.distributions.Categorical(probs=self.outputs)
+
         # Sample from distribution
         self.positions = prob.sample()        # [Batch, seq_length]
         self.positions = tf.cast(self.positions, tf.int32)
@@ -161,7 +163,8 @@ class Agent:
             log_softmax_mean = tf.reduce_sum(log_softmax,1)                  # [Batch]
             #log_softmax_mean = tf.Print(log_softmax_mean, ["log_softmax_mean",log_softmax_mean, tf.shape(log_softmax_mean)])
             variable_summaries('log_softmax_mean', log_softmax_mean, with_max_min=True)
-
+            reward = self.reward_holder
+            tf.summary.scalar('env_reward', tf.reduce_mean(reward))
             reward = tf.divide(1000.0, self.reward_holder, name="div")      # [Batch]
             #reward = tf.Print(reward, ["reward", reward])
 

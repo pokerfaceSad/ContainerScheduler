@@ -72,8 +72,8 @@ if __name__ == "__main__":
 
         # Restore variables from disk
         if config.load_model:
-            saver.restore(sess, "save/tf_binpacking.ckpt")
-            # saver.restore(sess, "save/tmp.ckpt-57600")
+            # saver.restore(sess, "save/tf_binpacking.ckpt")
+            saver.restore(sess, "save/tmp.ckpt-8400")
             print("Model restored.")
 
         # Train model

@@ -18,24 +18,24 @@ def str2bool(v):
 # Environment
 env_arg = add_argument_group('Environment')
 env_arg.add_argument('--num_bins', type=int, default=10, help='number of bins')
-env_arg.add_argument('--num_slots', type=int, default=16, help='number of slots per bin')
+env_arg.add_argument('--num_slots', type=int, default=128, help='number of slots per bin')
 env_arg.add_argument('--num_descriptors', type=int, default=8, help='number of unique packets')
 
 # Network
 net_arg = add_argument_group('Network')
-net_arg.add_argument('--hidden_dim', type=int, default=64, help='agent LSTM num_neurons')
-net_arg.add_argument('--num_stacks', type=int, default=3, help='agent LSTM num_stacks')
+net_arg.add_argument('--hidden_dim', type=int, default=128, help='agent LSTM num_neurons')
+net_arg.add_argument('--num_stacks', type=int, default=1, help='agent LSTM num_stacks')
 
 # Data
 data_arg = add_argument_group('Data')
 data_arg.add_argument('--batch_size', type=int, default=128, help='batch size')
 data_arg.add_argument('--min_length', type=int, default=10, help='minimum chain length')
-data_arg.add_argument('--max_length', type=int, default=15, help='maximum chain length')
+data_arg.add_argument('--max_length', type=int, default=20, help='maximum chain length')
 
 # Training / test parameters
 train_arg = add_argument_group('Training')
 train_arg.add_argument('--num_epoch', type=int, default=60000, help='number of epochs')
-train_arg.add_argument('--learning_rate', type=float, default=0.001, help='agent learning rate')
+train_arg.add_argument('--learning_rate', type=float, default=0.0005, help='agent learning rate')
 #train_arg.add_argument('--lr_decay_step', type=int, default=5000, help='lr decay step')
 #train_arg.add_argument('--lr_decay_rate', type=float, default=0.96, help='lr decay rate')
 

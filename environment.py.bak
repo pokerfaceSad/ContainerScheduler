@@ -132,12 +132,12 @@ class Environment(object):
         """ Render environment using Matplotlib """
 
         # Creates just a figure and only one subplot
-        fig, ax = plt.subplots(figsize=(15, 5))
+        fig, ax = plt.subplots(figsize=(10, 5))
         ax.set_title(f'Environment {epoch}\nreward: {self.reward}')
 
-        margin = 1
-        margin_ext = 2
-        xlim = 400
+        margin = 3
+        margin_ext = 6
+        xlim = 200
         ylim = 80
 
         # Set drawing limits
@@ -149,9 +149,9 @@ class Environment(object):
         wide = np.floor((xlim - 2 * margin_ext - margin * (self.numSlots - 1)) / self.numSlots)
 
         # Plot slot labels
-        # for slot in range(self.numSlots):
-        #     x = wide * slot + slot * margin + margin_ext
-        #     plt.text(x + 0.5 * wide, -3, "slot{}".format(slot), ha="center", family='sans-serif', size=8)
+        for slot in range(self.numSlots):
+            x = wide * slot + slot * margin + margin_ext
+            plt.text(x + 0.5 * wide, -3, "slot{}".format(slot), ha="center", family='sans-serif', size=8)
 
         # Plot bin labels & place empty boxes
         for bin in range(self.numBins):
@@ -179,8 +179,7 @@ class Environment(object):
                 y = -high * (bin + 1) - bin * margin - margin_ext
                 rectangle = mpatches.Rectangle((x, y), wide, high, linewidth=0, facecolor=colormap[idx], alpha=.9)
                 ax.add_patch(rectangle)
-                if k == 1:
-                    plt.text(x + 0.5 * wide, y + 0.5 * high, "pkt{}".format(pkt), ha="center", family='sans-serif', size=8)
+                plt.text(x + 0.5 * wide, y + 0.5 * high, "pkt{}".format(pkt), ha="center", family='sans-serif', size=8)
 
 
 

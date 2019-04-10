@@ -165,13 +165,13 @@ class Agent:
             variable_summaries('log_softmax_mean', log_softmax_mean, with_max_min=True)
             reward = self.reward_holder
             tf.summary.scalar('env_reward', tf.reduce_mean(reward))
-            reward = tf.divide(1000.0, self.reward_holder, name="div")      # [Batch]
+            # reward = tf.divide(1000.0, self.reward_holder, name="div")      # [Batch]
             #reward = tf.Print(reward, ["reward", reward])
 
             reward = tf.stop_gradient(reward)
 
             # Compute Loss
-            loss = tf.reduce_mean(reward * log_softmax_mean, 0)     # Scalar
+            loss = tf.reduce_mean(-reward * log_softmax_mean, 0)     # Scalar
             #loss = tf.Print(loss, ["loss", loss])
             tf.summary.scalar('loss', loss)
 

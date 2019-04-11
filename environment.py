@@ -96,7 +96,9 @@ class Environment(object):
 
             occupancy[bin] = occupied / len(self.cells[bin])
 
-        reward = np.sum(np.power(100, occupancy))
+        # reward = np.sum(np.power(100, occupancy))
+        size = np.flatnonzero(occupancy).size         
+        reward = np.sum(occupancy)/size
         return reward
 
     def step(self, placement, service, length):
@@ -112,7 +114,7 @@ class Environment(object):
 
         """ Compute reward """
         if self.invalidPlacement == True:
-            self.reward = 1
+            self.reward = -1
         else:
             self.reward = self._computeReward()
 
@@ -125,7 +127,7 @@ class Environment(object):
         self.service = None
         self.placement = None
         self.first_slots = None
-        self.reward = 1
+        self.reward = -1
         self.invalidPlacement = False
 
     def render(self, epoch=0):

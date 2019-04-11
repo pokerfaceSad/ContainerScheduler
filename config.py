@@ -35,7 +35,7 @@ data_arg.add_argument('--max_length', type=int, default=20, help='maximum chain 
 # Training / test parameters
 train_arg = add_argument_group('Training')
 train_arg.add_argument('--num_epoch', type=int, default=60000, help='number of epochs')
-train_arg.add_argument('--learning_rate', type=float, default=0.0005, help='agent learning rate')
+train_arg.add_argument('--learning_rate', type=float, default=0.001, help='agent learning rate')
 #train_arg.add_argument('--lr_decay_step', type=int, default=5000, help='lr decay step')
 #train_arg.add_argument('--lr_decay_rate', type=float, default=0.96, help='lr decay rate')
 

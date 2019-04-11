@@ -19,7 +19,7 @@ def str2bool(v):
 env_arg = add_argument_group('Environment')
 env_arg.add_argument('--num_bins', type=int, default=10, help='number of bins')
 env_arg.add_argument('--num_slots', type=int, default=128, help='number of slots per bin')
-env_arg.add_argument('--num_descriptors', type=int, default=8, help='number of unique packets')
+env_arg.add_argument('--num_descriptors', type=int, default=7, help='number of unique packets')
 
 # Network
 net_arg = add_argument_group('Network')

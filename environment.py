@@ -23,6 +23,16 @@ class Environment(object):
             reward(float) -- Stores the reward obtained placing the service on the environment
             invalidPlacement(Bool) -- Invalid placement indicates that there is a resource overflow
     """
+    # 为方便GA调用将service_properties声明为类变量
+    service_properties = [{"size": 1} for _ in range(20)]
+    service_properties[0]["size"] = 1
+    service_properties[1]["size"] = 2
+    service_properties[2]["size"] = 4
+    service_properties[3]["size"] = 8
+    service_properties[4]["size"] = 16
+    service_properties[5]["size"] = 32
+    service_properties[6]["size"] = 64
+
     def __init__(self, numBins, numSlots, numDescriptors):
 
         # Environment properties
@@ -54,7 +64,6 @@ class Environment(object):
         self.service_properties[4]["size"] = 16
         self.service_properties[5]["size"] = 32
         self.service_properties[6]["size"] = 64
-        self.service_properties[7]["size"] = 16
 
     def _placeSubPakcet(self, bin, pkt):
         """ Place subPacket """
@@ -194,14 +203,19 @@ if __name__ == "__main__":
 
     # Define environment
     numBins = 5
-    numSlots = 5
-    numDescriptors = 8
+    numSlots = 128
+    numDescriptors = 7
     env = Environment(numBins, numSlots, numDescriptors)
 
     # Allocate service in the environment
     servicelength = 5
-    ns = [0, 6, 6, 7, 5, 0]
-    placement = [0, 1, 1, 0, 0]
-    env.step(placement, ns, servicelength)
+    ns = [0, 6, 6, 5, 0]
+    import sys
+    sys.path.append(".")
+    from geneticAlgorithm.solver import *
+    chrom = solve(ns, servicelength, numSlots)
+    position = chrom2position(chrom)
+    # placement = [0, 1, 1, 0, 0]
+    env.step(position, ns, servicelength)
     env.render()
     env.clear()

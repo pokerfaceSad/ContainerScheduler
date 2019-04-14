@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 import numpy as np
 import tensorflow as tf
-
+tf.set_random_seed(-1)
 
 def variable_summaries(name, var, with_max_min=False):
     """Tensor summaries for TensorBoard visualization"""
@@ -63,7 +63,7 @@ class DynamicMultiRNN(object):
         self.num_activations = num_activations
         self.num_layers = num_layers
 
-        self.positions = []
+        self.prob_positions = []
         self.outputs = []
 
         self.input_ = input_
@@ -101,13 +101,15 @@ class DynamicMultiRNN(object):
 
         self.outputs = tf.layers.dense(states_series, self.action_size, activation=tf.nn.softmax)       # [Batch, seq_length, action_size]
         #self.outputs = tf.Print(self.outputs, ["outputs", self.outputs, tf.shape(self.outputs)],summarize=10)
+        # self.print_output = tf.Print("output", data=self.outputs)
+        self.best_positions = tf.cast(tf.argmax(self.outputs, 2), tf.int32)
 
         # Multinomial distribution
         prob = tf.contrib.distributions.Categorical(probs=self.outputs)
 
         # Sample from distribution
-        self.positions = prob.sample()        # [Batch, seq_length]
-        self.positions = tf.cast(self.positions, tf.int32)
+        self.prob_positions = prob.sample()        # [Batch, seq_length]
+        self.prob_positions = tf.cast(self.prob_positions, tf.int32)
         #self.positions = tf.Print(self.positions, ["position", self.positions, tf.shape(self.positions)], summarize=10)
 
 

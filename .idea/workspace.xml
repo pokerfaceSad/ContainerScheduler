@@ -2,19 +2,67 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="45d74c8f-9a20-40e1-b6f9-4a6ae03ec8d9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/GATest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geneticAlgorithm/1dPacking.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geneticAlgorithm/1dPacking.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geneticAlgorithm/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geneticAlgorithm/Result.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geneticAlgorithm/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geneticAlgorithm/solver.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geneticAlgorithm/test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geneticAlgorithm/testdata" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.config.py.swp" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/RLTest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/save/tf_binpacking.ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/save/tf_binpacking.ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/save/tf_binpacking.ckpt.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GATest.py" beforeDir="false" afterPath="$PROJECT_DIR$/GATest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Result.png" beforeDir="false" afterPath="$PROJECT_DIR$/Result.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/agent.py" beforeDir="false" afterPath="$PROJECT_DIR$/agent.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/config.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/environment.py" beforeDir="false" afterPath="$PROJECT_DIR$/environment.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/geneticAlgorithm/solver.py" beforeDir="false" afterPath="$PROJECT_DIR$/geneticAlgorithm/solver.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/save/checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/save/tmp.ckpt-10800.data-00000-of-00001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/save/tmp.ckpt-10800.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/save/tmp.ckpt-10800.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/save/tmp.ckpt-12000.data-00000-of-00001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/save/tmp.ckpt-12000.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/save/tmp.ckpt-12000.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/save/tmp.ckpt-13200.data-00000-of-00001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/save/tmp.ckpt-13200.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/save/tmp.ckpt-13200.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/save/tmp.ckpt-14400.data-00000-of-00001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/save/tmp.ckpt-14400.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/save/tmp.ckpt-14400.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/save/tmp.ckpt-15000.data-00000-of-00001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/save/tmp.ckpt-15000.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/save/tmp.ckpt-15000.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/save/tmp.ckpt-15600.data-00000-of-00001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/save/tmp.ckpt-15600.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/save/tmp.ckpt-15600.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/save/tmp.ckpt-16200.data-00000-of-00001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/save/tmp.ckpt-16200.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/save/tmp.ckpt-16200.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/save/tmp.ckpt-16800.data-00000-of-00001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/save/tmp.ckpt-16800.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/save/tmp.ckpt-16800.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/save/tmp.ckpt-17400.data-00000-of-00001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/save/tmp.ckpt-17400.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/save/tmp.ckpt-17400.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/save/tmp.ckpt-1800.data-00000-of-00001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/save/tmp.ckpt-1800.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/save/tmp.ckpt-1800.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/save/tmp.ckpt-3000.data-00000-of-00001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/save/tmp.ckpt-3000.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/save/tmp.ckpt-3000.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/save/tmp.ckpt-4800.data-00000-of-00001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/save/tmp.ckpt-4800.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/save/tmp.ckpt-4800.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/save/tmp.ckpt-6000.data-00000-of-00001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/save/tmp.ckpt-6000.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/save/tmp.ckpt-6000.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/save/tmp.ckpt-7200.data-00000-of-00001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/save/tmp.ckpt-7200.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/save/tmp.ckpt-7200.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/save/tmp.ckpt-8400.data-00000-of-00001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/save/tmp.ckpt-8400.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/save/tmp.ckpt-8400.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/save/tmp.ckpt-9600.data-00000-of-00001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/save/tmp.ckpt-9600.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/save/tmp.ckpt-9600.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service_batch_generator.py" beforeDir="false" afterPath="$PROJECT_DIR$/service_batch_generator.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,31 +71,40 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/ContainerScheduler$GATest.coverage" NAME="GATest Coverage Results" MODIFIED="1554993960570" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ContainerScheduler$agent.coverage" NAME="agent Coverage Results" MODIFIED="1555052441212" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ContainerScheduler$GATest.coverage" NAME="GATest Coverage Results" MODIFIED="1555046978824" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ContainerScheduler$service_batch_generator.coverage" NAME="service_batch_generator Coverage Results" MODIFIED="1554691147391" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/ContainerScheduler$test.coverage" NAME="test Coverage Results" MODIFIED="1554991287833" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/geneticAlgorithm" />
+    <SUITE FILE_PATH="coverage/ContainerScheduler$RLTest.coverage" NAME="RLTest Coverage Results" MODIFIED="1555240392259" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ContainerScheduler$test.coverage" NAME="test Coverage Results" MODIFIED="1555055573981" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/geneticAlgorithm" />
     <SUITE FILE_PATH="coverage/ContainerScheduler$solver.coverage" NAME="solver Coverage Results" MODIFIED="1554991828128" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/geneticAlgorithm" />
+    <SUITE FILE_PATH="coverage/ContainerScheduler$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1555049678100" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ContainerScheduler$environment.coverage" NAME="environment Coverage Results" MODIFIED="1554990882446" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ContainerScheduler$compare.coverage" NAME="compare Coverage Results" MODIFIED="1555243214494" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="ContainerScheduler" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/environment.py">
+        <entry file="file://$PROJECT_DIR$/RLTest.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="28">
-              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-              <folding>
-                <element signature="e#23#41#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/GATest.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="9" column="37" lean-forward="true" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
+            <state relative-caret-position="162">
+              <caret line="6" column="21" selection-end-line="84" selection-end-column="24" />
               <folding>
                 <element signature="e#0#20#0" expanded="true" />
               </folding>
@@ -56,50 +113,52 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
+        <entry file="file://$PROJECT_DIR$/GATest.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="302">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/geneticAlgorithm/solver.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+            <state relative-caret-position="616">
+              <caret line="22" column="16" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
               <folding>
-                <element signature="e#0#18#0" expanded="true" />
+                <element signature="e#0#20#0" expanded="true" />
               </folding>
             </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/geneticAlgorithm/test.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
-              <caret line="4" column="72" selection-start-line="4" selection-start-column="72" selection-end-line="4" selection-end-column="72" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/solver.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-672" />
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="265">
-              <caret line="15" column="21" lean-forward="true" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+            <state relative-caret-position="252">
+              <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/compare.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1837">
+              <caret line="74" column="25" selection-start-line="74" selection-start-column="25" selection-end-line="74" selection-end-column="25" />
               <folding>
-                <element signature="e#210#224#0" expanded="true" />
+                <element signature="e#23#34#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/service_batch_generator.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-49">
+              <caret line="26" column="44" selection-start-line="26" selection-start-column="44" selection-end-line="26" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/config.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="536">
+              <caret line="32" column="58" selection-start-line="32" selection-start-column="58" selection-end-line="32" selection-end-column="58" />
             </state>
           </provider>
         </entry>
@@ -107,17 +166,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/agent.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1106">
-              <caret line="176" selection-start-line="176" selection-end-line="176" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="237">
-              <caret line="21" column="61" selection-start-line="21" selection-start-column="61" selection-end-line="21" selection-end-column="61" />
+            <state relative-caret-position="112">
+              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+              <folding>
+                <element signature="e#24#42#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -134,7 +187,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>position</find>
-      <find>position</find>
+      <find>problemSet</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -143,29 +196,31 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/agent.py" />
-        <option value="$PROJECT_DIR$/service_batch_generator.py" />
-        <option value="$PROJECT_DIR$/main.py" />
-        <option value="$PROJECT_DIR$/config.py" />
         <option value="$PROJECT_DIR$/environment.py" />
         <option value="$PROJECT_DIR$/geneticAlgorithm/test.py" />
-        <option value="$PROJECT_DIR$/GATest.py" />
         <option value="$PROJECT_DIR$/geneticAlgorithm/solver.py" />
+        <option value="$PROJECT_DIR$/GATest.py" />
+        <option value="$PROJECT_DIR$/test.py" />
+        <option value="$PROJECT_DIR$/RLTest.py" />
+        <option value="$PROJECT_DIR$/compare.py" />
+        <option value="$PROJECT_DIR$/config.py" />
+        <option value="$PROJECT_DIR$/service_batch_generator.py" />
+        <option value="$PROJECT_DIR$/main.py" />
+        <option value="$PROJECT_DIR$/agent.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-1928" />
-    <option name="y" value="14" />
-    <option name="width" value="977" />
-    <option name="height" value="1088" />
+    <option name="x" value="-1929" />
+    <option name="y" value="-9" />
+    <option name="width" value="1938" />
+    <option name="height" value="1098" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -173,26 +228,27 @@
               <item name="ContainerScheduler" type="b2602c69:ProjectViewProjectNode" />
               <item name="ContainerScheduler" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="ContainerScheduler" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ContainerScheduler" type="462c0819:PsiDirectoryNode" />
-              <item name="geneticAlgorithm" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../BinPacking_Neural_Combinatorial_Optimization" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../rl_tsp" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\MyFiles\Repo\ContainerScheduler\save" />
+      <recent name="D:\MyFiles\Repo\ContainerScheduler\geneticAlgorithm" />
+      <recent name="D:\MyFiles\Repo\ContainerScheduler" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\MyFiles\Repo\ContainerScheduler" />
     </key>
   </component>
@@ -208,8 +264,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.GATest">
-    <configuration name="GATest" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.compare">
+    <configuration name="RLTest" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="ContainerScheduler" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -222,7 +278,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/GATest.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/RLTest.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -231,7 +287,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="environment" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="agent" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="ContainerScheduler" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -244,7 +300,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/environment.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/agent.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -253,7 +309,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="service_batch_generator" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="compare" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="ContainerScheduler" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -266,7 +322,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/service_batch_generator.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/compare.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -275,7 +331,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="solver" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="test (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="ContainerScheduler" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -283,12 +339,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/geneticAlgorithm" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/geneticAlgorithm/solver.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -321,11 +377,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.GATest" />
-        <item itemvalue="Python.solver" />
+        <item itemvalue="Python.compare" />
+        <item itemvalue="Python.RLTest" />
         <item itemvalue="Python.test" />
-        <item itemvalue="Python.environment" />
-        <item itemvalue="Python.service_batch_generator" />
+        <item itemvalue="Python.agent" />
+        <item itemvalue="Python.test (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -345,37 +401,38 @@
       <workItem from="1554639887992" duration="16887000" />
       <workItem from="1554709808659" duration="2098000" />
       <workItem from="1554727665530" duration="598000" />
+      <workItem from="1555062494358" duration="7297000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35217000" />
+    <option name="totallyTimeSpent" value="58353000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1927" y="7" width="1550" height="878" extended-state="6" />
+    <frame x="-1927" y="-7" width="1550" height="878" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1769437" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49803922" visible="true" weight="0.21581769" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info id="Favorites" order="2" sideWeight="0.5019608" side_tool="true" weight="0.1769437" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3297587" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.33512065" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932975" visible="true" weight="0.24664879" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.31586403" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.3286119" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" x="39" y="223" width="1245" height="232" id="Terminal" order="11" weight="0.22252011" />
-      <window_info anchor="bottom" id="Python Console" order="12" weight="0.32841823" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50067025" side_tool="true" weight="0.3458445" />
+      <window_info anchor="bottom" x="39" y="223" width="1245" height="232" id="Terminal" order="11" weight="0.22237961" />
+      <window_info anchor="bottom" x="-1920" y="14" width="1536" height="867" id="Python Console" order="12" type="FLOATING" weight="0.32719547" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info active="true" anchor="right" x="0" y="0" width="1536" height="824" id="SciView" order="3" type="FLOATING" visible="true" weight="0.36595175" />
-      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" x="3" y="3" width="1530" height="818" id="SciView" order="3" weight="0.7119741" />
+      <window_info anchor="right" id="Database" order="4" weight="0.3297587" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -383,6 +440,26 @@
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>population[position]</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>problemSet[]</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>problemSet[1,2,3]</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>problemSet</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>problemSet[chromosome]</expression-string>
         <language-id>Python</language-id>
@@ -395,11 +472,6 @@
       </expression>
       <expression>
         <expression-string>result = problemSet</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>problemSet</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
@@ -418,16 +490,6 @@
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
-      <expression>
-        <expression-string>chrom2position(bestChromosome[0])</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>services.getNewState()</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
@@ -437,71 +499,12 @@
     <entry file="file://$PROJECT_DIR$/placement.dzn">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/save/checkpoint">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="5" column="44" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/save/checkpoint" />
     <entry file="file://$PROJECT_DIR$/save_1/checkpoint" />
-    <entry file="file://$PROJECT_DIR$/service_batch_generator.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-616">
-          <caret line="5" column="58" selection-start-line="5" selection-start-column="58" selection-end-line="5" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/agent.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1106">
-          <caret line="176" selection-start-line="176" selection-end-line="176" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="21" column="61" selection-start-line="21" selection-start-column="61" selection-end-line="21" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/.PyCharm2018.3/system/python_stubs/1069468430/builtins.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="158">
           <caret line="2958" column="8" selection-start-line="2958" selection-start-column="8" selection-end-line="2958" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/solver.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-672" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="15" column="21" lean-forward="true" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
-          <folding>
-            <element signature="e#210#224#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/geneticAlgorithm/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="4" column="72" selection-start-line="4" selection-start-column="72" selection-end-line="4" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/environment.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="28">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-          <folding>
-            <element signature="e#23#41#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -512,30 +515,123 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Result.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/solver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-672" />
+      </provider>
+    </entry>
     <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="1740" selection-start-line="1740" selection-end-line="1740" />
+        <state relative-caret-position="48552">
+          <caret line="1734" selection-start-line="1734" selection-end-line="1734" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GATest.py">
+    <entry file="file://$PROJECT_DIR$/test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="9" column="37" lean-forward="true" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
+        <state relative-caret-position="140">
+          <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
           <folding>
-            <element signature="e#0#20#0" expanded="true" />
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/environment.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1970">
+          <caret line="141" column="8" selection-start-line="141" selection-start-column="8" selection-end-line="141" selection-end-column="8" />
+          <folding>
+            <element signature="e#23#41#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/geneticAlgorithm/solver.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+        <state relative-caret-position="28">
+          <caret line="121" column="27" selection-start-line="121" selection-start-column="27" selection-end-line="121" selection-end-column="27" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/geneticAlgorithm/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RLTest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" column="21" selection-end-line="84" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#20#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service_batch_generator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-49">
+          <caret line="26" column="44" selection-start-line="26" selection-start-column="44" selection-end-line="26" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.3/system/python_stubs/1069468430/time.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-144">
+          <caret line="217" lean-forward="true" selection-start-line="217" selection-end-line="217" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/compare.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1837">
+          <caret line="74" column="25" selection-start-line="74" selection-start-column="25" selection-end-line="74" selection-end-column="25" />
+          <folding>
+            <element signature="e#23#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GATest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="616">
+          <caret line="22" column="16" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#20#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/agent.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <element signature="e#24#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="536">
+          <caret line="32" column="58" selection-start-line="32" selection-start-column="58" selection-end-line="32" selection-end-column="58" />
         </state>
       </provider>
     </entry>

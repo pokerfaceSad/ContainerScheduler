@@ -3,7 +3,7 @@ import sys
 sys.path.append("..")
 from environment import *
 
-WITH_GRAPH_OUTPUT = True
+WITH_GRAPH_OUTPUT = False
 
 '''物品集合'''
 global problemSet

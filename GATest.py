@@ -22,4 +22,3 @@ for index, serviceChain in enumerate(states):
     env.step(position, serviceChain, servicelengths[index])
     env.render()
     env.clear()
-    chrom2position(chromo)

@@ -6,13 +6,11 @@
     Date: October 2018
 """
 import logging
-import tensorflow as tf
 from environment import *
 from service_batch_generator import *
 from agent import *
 from config import *
 from solver import *
-from tensorflow.python import debug as tf_debug
 from tqdm import tqdm
 
 """ Globals """
@@ -73,7 +71,7 @@ if __name__ == "__main__":
         # Restore variables from disk
         if config.load_model:
             # saver.restore(sess, "save/tf_binpacking.ckpt")
-            saver.restore(sess, "save/tmp.ckpt-43200")
+            saver.restore(sess, "save/tmp.ckpt-41400")
             print("Model restored.")
 
         # Train model

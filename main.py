@@ -92,7 +92,7 @@ if __name__ == "__main__":
 
                 # Compute placement
                 feed = {agent.input_: input_state, agent.input_len_: [item for item in services.serviceLength]}
-                positions = sess.run(agent.ptr.positions, feed_dict=feed)
+                positions = sess.run(agent.ptr.prob_positions, feed_dict=feed)
 
                 reward = np.zeros(config.batch_size)
 

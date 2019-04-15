@@ -2,66 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="45d74c8f-9a20-40e1-b6f9-4a6ae03ec8d9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/RLTest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/save/tf_binpacking.ckpt.data-00000-of-00001" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/save/tf_binpacking.ckpt.index" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/save/tf_binpacking.ckpt.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GATest.py" beforeDir="false" afterPath="$PROJECT_DIR$/GATest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Result.png" beforeDir="false" afterPath="$PROJECT_DIR$/Result.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/agent.py" beforeDir="false" afterPath="$PROJECT_DIR$/agent.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/config.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/geneticAlgorithm/solver.py" beforeDir="false" afterPath="$PROJECT_DIR$/geneticAlgorithm/solver.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/save/checkpoint" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/save/tmp.ckpt-10800.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/save/tmp.ckpt-10800.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/save/tmp.ckpt-10800.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/save/tmp.ckpt-12000.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/save/tmp.ckpt-12000.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/save/tmp.ckpt-12000.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/save/tmp.ckpt-13200.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/save/tmp.ckpt-13200.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/save/tmp.ckpt-13200.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/save/tmp.ckpt-14400.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/save/tmp.ckpt-14400.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/save/tmp.ckpt-14400.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/save/tmp.ckpt-15000.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/save/tmp.ckpt-15000.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/save/tmp.ckpt-15000.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/save/tmp.ckpt-15600.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/save/tmp.ckpt-15600.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/save/tmp.ckpt-15600.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/save/tmp.ckpt-16200.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/save/tmp.ckpt-16200.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/save/tmp.ckpt-16200.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/save/tmp.ckpt-16800.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/save/tmp.ckpt-16800.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/save/tmp.ckpt-16800.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/save/tmp.ckpt-17400.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/save/tmp.ckpt-17400.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/save/tmp.ckpt-17400.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/save/tmp.ckpt-1800.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/save/tmp.ckpt-1800.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/save/tmp.ckpt-1800.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/save/tmp.ckpt-3000.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/save/tmp.ckpt-3000.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/save/tmp.ckpt-3000.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/save/tmp.ckpt-4800.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/save/tmp.ckpt-4800.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/save/tmp.ckpt-4800.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/save/tmp.ckpt-6000.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/save/tmp.ckpt-6000.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/save/tmp.ckpt-6000.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/save/tmp.ckpt-7200.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/save/tmp.ckpt-7200.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/save/tmp.ckpt-7200.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/save/tmp.ckpt-8400.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/save/tmp.ckpt-8400.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/save/tmp.ckpt-8400.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/save/tmp.ckpt-9600.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/save/tmp.ckpt-9600.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/save/tmp.ckpt-9600.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/service_batch_generator.py" beforeDir="false" afterPath="$PROJECT_DIR$/service_batch_generator.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -113,6 +55,18 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/environment.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3948">
+              <caret line="141" column="8" selection-start-line="141" selection-start-column="8" selection-end-line="141" selection-end-column="8" />
+              <folding>
+                <element signature="e#23#41#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/GATest.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="616">
@@ -124,11 +78,14 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+            <state relative-caret-position="280">
+              <caret line="94" column="61" selection-start-line="94" selection-start-column="61" selection-end-line="94" selection-end-column="61" />
+              <folding>
+                <element signature="e#210#224#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -148,17 +105,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/service_batch_generator.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-49">
-              <caret line="26" column="44" selection-start-line="26" selection-start-column="44" selection-end-line="26" selection-end-column="44" />
+            <state relative-caret-position="364">
+              <caret line="13" column="11" lean-forward="true" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="536">
-              <caret line="32" column="58" selection-start-line="32" selection-start-column="58" selection-end-line="32" selection-end-column="58" />
+            <state relative-caret-position="363">
+              <caret line="74" lean-forward="true" selection-start-line="74" selection-end-line="74" />
             </state>
           </provider>
         </entry>
@@ -166,7 +123,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/agent.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
+            <state relative-caret-position="-2660">
               <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
               <folding>
                 <element signature="e#24#42#0" expanded="true" />
@@ -203,10 +160,10 @@
         <option value="$PROJECT_DIR$/test.py" />
         <option value="$PROJECT_DIR$/RLTest.py" />
         <option value="$PROJECT_DIR$/compare.py" />
+        <option value="$PROJECT_DIR$/agent.py" />
         <option value="$PROJECT_DIR$/config.py" />
         <option value="$PROJECT_DIR$/service_batch_generator.py" />
         <option value="$PROJECT_DIR$/main.py" />
-        <option value="$PROJECT_DIR$/agent.py" />
       </list>
     </option>
   </component>
@@ -401,23 +358,23 @@
       <workItem from="1554639887992" duration="16887000" />
       <workItem from="1554709808659" duration="2098000" />
       <workItem from="1554727665530" duration="598000" />
-      <workItem from="1555062494358" duration="7297000" />
+      <workItem from="1555062494358" duration="9472000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58353000" />
+    <option name="totallyTimeSpent" value="60528000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1927" y="-7" width="1550" height="878" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49803922" visible="true" weight="0.21581769" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49803922" visible="true" weight="0.21581769" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.5019608" side_tool="true" weight="0.1769437" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932975" visible="true" weight="0.24664879" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932975" weight="0.24664879" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.31586403" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -426,7 +383,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.3286119" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50067025" side_tool="true" weight="0.3458445" />
-      <window_info anchor="bottom" x="39" y="223" width="1245" height="232" id="Terminal" order="11" weight="0.22237961" />
+      <window_info active="true" anchor="bottom" x="39" y="223" width="1245" height="232" id="Terminal" order="11" visible="true" weight="0.22117962" />
       <window_info anchor="bottom" x="-1920" y="14" width="1536" height="867" id="Python Console" order="12" type="FLOATING" weight="0.32719547" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -540,16 +497,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/environment.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1970">
-          <caret line="141" column="8" selection-start-line="141" selection-start-column="8" selection-end-line="141" selection-end-column="8" />
-          <folding>
-            <element signature="e#23#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/geneticAlgorithm/solver.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="28">
@@ -574,13 +521,6 @@
           <folding>
             <element signature="e#0#20#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service_batch_generator.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-49">
-          <caret line="26" column="44" selection-start-line="26" selection-start-column="44" selection-end-line="26" selection-end-column="44" />
         </state>
       </provider>
     </entry>
@@ -611,16 +551,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.py">
+    <entry file="file://$PROJECT_DIR$/environment.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+        <state relative-caret-position="3948">
+          <caret line="141" column="8" selection-start-line="141" selection-start-column="8" selection-end-line="141" selection-end-column="8" />
+          <folding>
+            <element signature="e#23#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service_batch_generator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="13" column="11" lean-forward="true" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="74" lean-forward="true" selection-start-line="74" selection-end-line="74" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/agent.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
+        <state relative-caret-position="-2660">
           <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
           <folding>
             <element signature="e#24#42#0" expanded="true" />
@@ -628,10 +585,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config.py">
+    <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="536">
-          <caret line="32" column="58" selection-start-line="32" selection-start-column="58" selection-end-line="32" selection-end-column="58" />
+        <state relative-caret-position="280">
+          <caret line="94" column="61" selection-start-line="94" selection-start-column="61" selection-end-line="94" selection-end-column="61" />
+          <folding>
+            <element signature="e#210#224#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

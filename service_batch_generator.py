@@ -1,5 +1,6 @@
 #-*- coding: utf-8 -*-
 import numpy as np
+np.random.seed(1)
 
 class ServiceBatchGenerator(object):
     """
